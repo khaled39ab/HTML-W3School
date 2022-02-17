@@ -1,22 +1,37 @@
-// The Action Attribute
-// The action attribute defines the action to be performed when the form is submitted.
-// Usually, the form data is sent to a file on the server when the user clicks on the submit button.
-<form action="/action_page.php">
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" value="John"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" value="Doe"><br><br>
-    <input type="submit" value="Submit">
-  </form>
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- The Method Attribute
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    // The Action Attribute
+    // The action attribute defines the action to be performed when the form is submitted.
+    // Usually, the form data is sent to a file on the server when the user clicks on the submit button.
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- The Method Attribute
 The method attribute specifies the HTTP method to be used when submitting the form data.
 The form-data can be sent as URL variables (with method="get") or as HTTP post transaction (with method="post").
 The default HTTP method when submitting form data is GET.  -->
-<form action="/action_page.php" method="get"></form>
-<form action="/action_page.php" method="post"></form>
+    <form action="/action_page.php" method="get"></form>
+    <form action="/action_page.php" method="post"></form>
 
-<!-- The Autocomplete Attribute
+    <!-- The Autocomplete Attribute
 The autocomplete attribute specifies whether a form should have autocomplete on or off. -->
-<form action="/action_page.php" autocomplete="on"></form>
+    <form action="/action_page.php" autocomplete="on"></form>
 
+
+</body>
+
+</html>
